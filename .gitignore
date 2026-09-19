@@ -1,0 +1,24 @@
+# Ambiente virtual Python
+venv/
+env/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Banco de dados local (gerado ao testar fora do Docker)
+data/
+*.db
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de editores
+.vscode/
+.idea/
+
+# Saídas de comandos salvas localmente (se você usou o truque do tee)
+*-output.txt
